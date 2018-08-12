@@ -30,6 +30,10 @@ app.get('/donar', function(req, res) {
     res.render('donation.ejs');
 });
 
+app.get('/logros', function(req, res) {
+    res.render('achievements.ejs');
+});
+
 app.listen(8000, function(){
 	console.log("Devoloping mode set to: " + process.env.DEV_ENV);
 	console.log('App is listening on port 8000!');

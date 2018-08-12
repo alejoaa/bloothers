@@ -6,3 +6,7 @@ body {
     /* font-family: 'Open Sans'; */
     /* margin: 0; */
 }
+
+a:hover {
+    text-decoration: none;
+}
