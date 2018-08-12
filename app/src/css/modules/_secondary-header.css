@@ -1,0 +1,16 @@
+.secondary-header {
+    font-family: 'Varela Round', sans-serif;
+
+    &--inline-block {
+        display: inline-block;
+    }
+
+    &--v-align-center {
+        vertical-align: middle;
+    }
+
+    &--no-v-margin {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
