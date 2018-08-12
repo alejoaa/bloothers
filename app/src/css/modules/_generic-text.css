@@ -1,0 +1,55 @@
+.generic-text {
+    font-family: 'Open Sans', sans-serif;
+
+    &--top-margin {
+        margin-top: 20px;
+    }
+
+    &--no-margin {
+        margin: 0;
+    }
+
+    &--dark {
+        color: #494949;
+    }
+
+    &--text-center {
+        text-align: center;
+    }
+
+    &--regular {
+        font-weight: 400;
+    }
+
+    &--size-large {
+        font-size: 1.185rem;
+    }
+
+    &--bold {
+        font-weight: 700;
+    }
+
+    &--size-medium {
+        font-size: 1.125rem;
+    }
+
+    &--size-larger {
+        font-size: 1.785rem;
+    }
+
+    &--b-margin {
+        margin-bottom: 50px;
+    }
+
+    &--yellow {
+        color: #E4CA63;
+    }
+
+    &--white {
+        color: #FFF;
+    }
+
+    &--red {
+        color: #E15353;
+    }
+}

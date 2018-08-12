@@ -1,0 +1,41 @@
+.points-container {
+
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    text-align: justify;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+        display: inline-block;
+    }
+
+    &__text {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    &--lab-background {
+        background-image: url("/img/lab-img.png");
+    }
+    
+    &--hospital-background {
+        background-image: url("/img/hospital-img.png");
+    }
+
+    &__point-div {
+        display: inline-block;
+        vertical-align: top;
+        width: 100px;
+        height: 100%;
+        background-color: rgba(#020202, 0.8);
+    }
+}

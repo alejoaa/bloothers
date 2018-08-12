@@ -9,8 +9,52 @@
         vertical-align: middle;
     }
 
+    &--text-center {
+        text-align: center;
+    }
+    
+    &--v-align-top {
+        vertical-align: top;
+    }
+
     &--no-v-margin {
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    &--size-large {
+        font-size: 4.5rem;
+    }
+
+    &--size-medium {
+        font-size: 1.185rem;
+    }
+
+    &--b-margin {
+        margin-bottom: 30px;
+    }
+
+    &--max-width {
+        max-width: 100px;
+    }
+    
+    &--max-width-200 {
+        max-width: 200px;
+    }
+
+    &--line-height-1-2 {
+        line-height: 1.2;
+    }
+
+    &--text-left {
+        text-align: left;
+    }
+
+    &--red {
+        color: #F0565C;
+    }
+
+    &--white {
+        color: #FFF;
     }
 }

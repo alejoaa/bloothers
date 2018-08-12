@@ -34,6 +34,18 @@ app.get('/logros', function(req, res) {
     res.render('achievements.ejs');
 });
 
+app.get('/campanas', function(req, res) {
+    res.render('campaigns.ejs');
+});
+
+app.get('/puntos', function(req, res) {
+    res.render('points.ejs');
+});
+
+app.get('/perfil', function(req, res) {
+    res.render('profile.ejs');
+});
+
 app.listen(8000, function(){
 	console.log("Devoloping mode set to: " + process.env.DEV_ENV);
 	console.log('App is listening on port 8000!');

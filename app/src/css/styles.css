@@ -6,3 +6,11 @@
 @import "modules/_primary-header";
 @import "modules/_donation-list";
 @import "modules/_secondary-header";
+@import "modules/_section-row";
+@import "modules/_image";
+@import "modules/_campaign-container";
+@import "modules/_generic-text";
+@import "modules/_fredoka-text";
+@import "modules/_points-container";
+@import "modules/_profile-img";
+@import "modules/_profile-info";

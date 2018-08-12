@@ -10,22 +10,34 @@
         <p class="footer__link__text">Logros</p>
     </a>
     
-    <a class="footer__link">
+    <a href="/campanas" class="footer__link">
         <img src="img/nav-campaings.png" class="footer__link__icon">
         <p class="footer__link__text">Campañas</p>
     </a>
     
-    <a class="footer__link">
+    <a href="/puntos" class="footer__link">
         <img src="img/nav-points.png" class="footer__link__icon">
         <p class="footer__link__text">Puntos</p>
     </a>
     
-    <a class="footer__link">
+    <a href="/perfil" class="footer__link">
         <img src="img/nav-profile.png" class="footer__link__icon">
-        <p class="footer__link__text">Puntos</p>
+        <p class="footer__link__text">Perfil</p>
     </a>
 
 </footer>
+
+<script>
+    var a=document.getElementsByTagName("a");
+    for(var i=0;i<a.length;i++)
+    {
+        a[i].onclick=function()
+        {
+            window.location=this.getAttribute("href");
+            return false
+        }
+    }
+</script>
 
 </body>
 </html>
