@@ -1,6 +1,8 @@
 require('dotenv').config()
 var express = require('express'),
-	path = require('path');
+	path = require('path'),
+	http = require('http');
+
 var app = express();
 
 
@@ -46,7 +48,12 @@ app.get('/perfil', function(req, res) {
     res.render('profile.ejs');
 });
 
-app.listen(8000, function(){
-	console.log("Devoloping mode set to: " + process.env.DEV_ENV);
-	console.log('App is listening on port 8000!');
+// app.listen(8000, function(){
+// 	console.log("Devoloping mode set to: " + process.env.DEV_ENV);
+// 	console.log('App is listening on port 8000!');
+// });
+
+var port = process.env.PORT || 8000
+app.listen(port, function() {
+    console.log("To view your app, open this link in your browser: http://localhost:" + port);
 });
